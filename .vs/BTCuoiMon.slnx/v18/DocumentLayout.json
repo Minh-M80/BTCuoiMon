@@ -1,0 +1,136 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Winform\\BTCuoiMon\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{07C263EA-A606-44DC-BAB2-65D0E4B81C9C}|BTCuoiMon\\BTCuoiMon.csproj|d:\\winform\\btcuoimon\\btcuoimon\\dangnhap.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07C263EA-A606-44DC-BAB2-65D0E4B81C9C}|BTCuoiMon\\BTCuoiMon.csproj|solutionrelative:btcuoimon\\dangnhap.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07C263EA-A606-44DC-BAB2-65D0E4B81C9C}|BTCuoiMon\\BTCuoiMon.csproj|d:\\winform\\btcuoimon\\btcuoimon\\dangky.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{07C263EA-A606-44DC-BAB2-65D0E4B81C9C}|BTCuoiMon\\BTCuoiMon.csproj|solutionrelative:btcuoimon\\dangky.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07C263EA-A606-44DC-BAB2-65D0E4B81C9C}|BTCuoiMon\\BTCuoiMon.csproj|d:\\winform\\btcuoimon\\btcuoimon\\manhinhchinh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{07C263EA-A606-44DC-BAB2-65D0E4B81C9C}|BTCuoiMon\\BTCuoiMon.csproj|solutionrelative:btcuoimon\\manhinhchinh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07C263EA-A606-44DC-BAB2-65D0E4B81C9C}|BTCuoiMon\\BTCuoiMon.csproj|d:\\winform\\btcuoimon\\btcuoimon\\manhinhchinh.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07C263EA-A606-44DC-BAB2-65D0E4B81C9C}|BTCuoiMon\\BTCuoiMon.csproj|solutionrelative:btcuoimon\\manhinhchinh.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07C263EA-A606-44DC-BAB2-65D0E4B81C9C}|BTCuoiMon\\BTCuoiMon.csproj|d:\\winform\\btcuoimon\\btcuoimon\\dangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{07C263EA-A606-44DC-BAB2-65D0E4B81C9C}|BTCuoiMon\\BTCuoiMon.csproj|solutionrelative:btcuoimon\\dangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07C263EA-A606-44DC-BAB2-65D0E4B81C9C}|BTCuoiMon\\BTCuoiMon.csproj|d:\\winform\\btcuoimon\\btcuoimon\\dangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07C263EA-A606-44DC-BAB2-65D0E4B81C9C}|BTCuoiMon\\BTCuoiMon.csproj|solutionrelative:btcuoimon\\dangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07C263EA-A606-44DC-BAB2-65D0E4B81C9C}|BTCuoiMon\\BTCuoiMon.csproj|d:\\winform\\btcuoimon\\btcuoimon\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07C263EA-A606-44DC-BAB2-65D0E4B81C9C}|BTCuoiMon\\BTCuoiMon.csproj|solutionrelative:btcuoimon\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ManHinhChinh.Designer.cs",
+              "DocumentMoniker": "D:\\Winform\\BTCuoiMon\\BTCuoiMon\\ManHinhChinh.Designer.cs",
+              "RelativeDocumentMoniker": "BTCuoiMon\\ManHinhChinh.Designer.cs",
+              "ToolTip": "D:\\Winform\\BTCuoiMon\\BTCuoiMon\\ManHinhChinh.Designer.cs",
+              "RelativeToolTip": "BTCuoiMon\\ManHinhChinh.Designer.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAswGMAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T07:30:35.856Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ManHinhChinh.cs [Design]",
+              "DocumentMoniker": "D:\\Winform\\BTCuoiMon\\BTCuoiMon\\ManHinhChinh.cs",
+              "RelativeDocumentMoniker": "BTCuoiMon\\ManHinhChinh.cs",
+              "ToolTip": "D:\\Winform\\BTCuoiMon\\BTCuoiMon\\ManHinhChinh.cs [Design]",
+              "RelativeToolTip": "BTCuoiMon\\ManHinhChinh.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T07:28:14.276Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DangKy.cs [Design]",
+              "DocumentMoniker": "D:\\Winform\\BTCuoiMon\\BTCuoiMon\\DangKy.cs",
+              "RelativeDocumentMoniker": "BTCuoiMon\\DangKy.cs",
+              "ToolTip": "D:\\Winform\\BTCuoiMon\\BTCuoiMon\\DangKy.cs [Design]",
+              "RelativeToolTip": "BTCuoiMon\\DangKy.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T07:21:18.07Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DangNhap.Designer.cs",
+              "DocumentMoniker": "D:\\Winform\\BTCuoiMon\\BTCuoiMon\\DangNhap.Designer.cs",
+              "RelativeDocumentMoniker": "BTCuoiMon\\DangNhap.Designer.cs",
+              "ToolTip": "D:\\Winform\\BTCuoiMon\\BTCuoiMon\\DangNhap.Designer.cs",
+              "RelativeToolTip": "BTCuoiMon\\DangNhap.Designer.cs",
+              "ViewState": "AgIAADgAAAAAAAAAAAArwEMAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T07:16:05.294Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Winform\\BTCuoiMon\\BTCuoiMon\\Program.cs",
+              "RelativeDocumentMoniker": "BTCuoiMon\\Program.cs",
+              "ToolTip": "D:\\Winform\\BTCuoiMon\\BTCuoiMon\\Program.cs",
+              "RelativeToolTip": "BTCuoiMon\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T07:15:58.253Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DangNhap.cs",
+              "DocumentMoniker": "D:\\Winform\\BTCuoiMon\\BTCuoiMon\\DangNhap.cs",
+              "RelativeDocumentMoniker": "BTCuoiMon\\DangNhap.cs",
+              "ToolTip": "D:\\Winform\\BTCuoiMon\\BTCuoiMon\\DangNhap.cs",
+              "RelativeToolTip": "BTCuoiMon\\DangNhap.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T07:15:02.844Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DangNhap.cs [Design]",
+              "DocumentMoniker": "D:\\Winform\\BTCuoiMon\\BTCuoiMon\\DangNhap.cs",
+              "RelativeDocumentMoniker": "BTCuoiMon\\DangNhap.cs",
+              "ToolTip": "D:\\Winform\\BTCuoiMon\\BTCuoiMon\\DangNhap.cs [Design]",
+              "RelativeToolTip": "BTCuoiMon\\DangNhap.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T07:00:42.343Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

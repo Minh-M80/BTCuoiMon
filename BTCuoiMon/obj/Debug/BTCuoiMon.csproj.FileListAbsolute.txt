@@ -1,0 +1,10 @@
+D:\Winform\BTCuoiMon\BTCuoiMon\bin\Debug\BTCuoiMon.exe.config
+D:\Winform\BTCuoiMon\BTCuoiMon\bin\Debug\BTCuoiMon.exe
+D:\Winform\BTCuoiMon\BTCuoiMon\bin\Debug\BTCuoiMon.pdb
+D:\Winform\BTCuoiMon\BTCuoiMon\obj\Debug\BTCuoiMon.csproj.AssemblyReference.cache
+D:\Winform\BTCuoiMon\BTCuoiMon\obj\Debug\BTCuoiMon.DangNhap.resources
+D:\Winform\BTCuoiMon\BTCuoiMon\obj\Debug\BTCuoiMon.Properties.Resources.resources
+D:\Winform\BTCuoiMon\BTCuoiMon\obj\Debug\BTCuoiMon.csproj.GenerateResource.cache
+D:\Winform\BTCuoiMon\BTCuoiMon\obj\Debug\BTCuoiMon.csproj.CoreCompileInputs.cache
+D:\Winform\BTCuoiMon\BTCuoiMon\obj\Debug\BTCuoiMon.exe
+D:\Winform\BTCuoiMon\BTCuoiMon\obj\Debug\BTCuoiMon.pdb
