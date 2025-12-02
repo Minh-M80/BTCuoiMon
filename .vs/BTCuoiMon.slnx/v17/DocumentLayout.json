@@ -1,0 +1,156 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\btcuoimon\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{07C263EA-A606-44DC-BAB2-65D0E4B81C9C}|BTCuoiMon\\BTCuoiMon.csproj|c:\\btcuoimon\\btcuoimon\\quanlyphongban.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{07C263EA-A606-44DC-BAB2-65D0E4B81C9C}|BTCuoiMon\\BTCuoiMon.csproj|solutionrelative:btcuoimon\\quanlyphongban.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07C263EA-A606-44DC-BAB2-65D0E4B81C9C}|BTCuoiMon\\BTCuoiMon.csproj|c:\\btcuoimon\\btcuoimon\\quanlyphongban.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07C263EA-A606-44DC-BAB2-65D0E4B81C9C}|BTCuoiMon\\BTCuoiMon.csproj|solutionrelative:btcuoimon\\quanlyphongban.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07C263EA-A606-44DC-BAB2-65D0E4B81C9C}|BTCuoiMon\\BTCuoiMon.csproj|c:\\btcuoimon\\btcuoimon\\quanlynhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{07C263EA-A606-44DC-BAB2-65D0E4B81C9C}|BTCuoiMon\\BTCuoiMon.csproj|solutionrelative:btcuoimon\\quanlynhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07C263EA-A606-44DC-BAB2-65D0E4B81C9C}|BTCuoiMon\\BTCuoiMon.csproj|c:\\btcuoimon\\btcuoimon\\quanlyduan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{07C263EA-A606-44DC-BAB2-65D0E4B81C9C}|BTCuoiMon\\BTCuoiMon.csproj|solutionrelative:btcuoimon\\quanlyduan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07C263EA-A606-44DC-BAB2-65D0E4B81C9C}|BTCuoiMon\\BTCuoiMon.csproj|c:\\btcuoimon\\btcuoimon\\quanlynhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07C263EA-A606-44DC-BAB2-65D0E4B81C9C}|BTCuoiMon\\BTCuoiMon.csproj|solutionrelative:btcuoimon\\quanlynhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07C263EA-A606-44DC-BAB2-65D0E4B81C9C}|BTCuoiMon\\BTCuoiMon.csproj|c:\\btcuoimon\\btcuoimon\\quanlyduan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07C263EA-A606-44DC-BAB2-65D0E4B81C9C}|BTCuoiMon\\BTCuoiMon.csproj|solutionrelative:btcuoimon\\quanlyduan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07C263EA-A606-44DC-BAB2-65D0E4B81C9C}|BTCuoiMon\\BTCuoiMon.csproj|c:\\btcuoimon\\btcuoimon\\quanlyduan.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07C263EA-A606-44DC-BAB2-65D0E4B81C9C}|BTCuoiMon\\BTCuoiMon.csproj|solutionrelative:btcuoimon\\quanlyduan.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07C263EA-A606-44DC-BAB2-65D0E4B81C9C}|BTCuoiMon\\BTCuoiMon.csproj|c:\\btcuoimon\\btcuoimon\\dangky.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{07C263EA-A606-44DC-BAB2-65D0E4B81C9C}|BTCuoiMon\\BTCuoiMon.csproj|solutionrelative:btcuoimon\\dangky.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 126,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Quanlyphongban.cs",
+              "DocumentMoniker": "C:\\btcuoimon\\BTCuoiMon\\Quanlyphongban.cs",
+              "RelativeDocumentMoniker": "BTCuoiMon\\Quanlyphongban.cs",
+              "ToolTip": "C:\\btcuoimon\\BTCuoiMon\\Quanlyphongban.cs",
+              "RelativeToolTip": "BTCuoiMon\\Quanlyphongban.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAIA5wCQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T10:58:42.019Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Quanlyphongban.cs [Design]",
+              "DocumentMoniker": "C:\\btcuoimon\\BTCuoiMon\\Quanlyphongban.cs",
+              "RelativeDocumentMoniker": "BTCuoiMon\\Quanlyphongban.cs",
+              "ToolTip": "C:\\btcuoimon\\BTCuoiMon\\Quanlyphongban.cs [Design]",
+              "RelativeToolTip": "BTCuoiMon\\Quanlyphongban.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T10:23:10.389Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Quanlynhanvien.cs",
+              "DocumentMoniker": "C:\\btcuoimon\\BTCuoiMon\\Quanlynhanvien.cs",
+              "RelativeDocumentMoniker": "BTCuoiMon\\Quanlynhanvien.cs",
+              "ToolTip": "C:\\btcuoimon\\BTCuoiMon\\Quanlynhanvien.cs",
+              "RelativeToolTip": "BTCuoiMon\\Quanlynhanvien.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAIA5wB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T09:52:02.258Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Quanlynhanvien.cs [Design]",
+              "DocumentMoniker": "C:\\btcuoimon\\BTCuoiMon\\Quanlynhanvien.cs",
+              "RelativeDocumentMoniker": "BTCuoiMon\\Quanlynhanvien.cs",
+              "ToolTip": "C:\\btcuoimon\\BTCuoiMon\\Quanlynhanvien.cs [Design]",
+              "RelativeToolTip": "BTCuoiMon\\Quanlynhanvien.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T08:17:41.452Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Quanlyduan.Designer.cs",
+              "DocumentMoniker": "C:\\btcuoimon\\BTCuoiMon\\Quanlyduan.Designer.cs",
+              "RelativeDocumentMoniker": "BTCuoiMon\\Quanlyduan.Designer.cs",
+              "ToolTip": "C:\\btcuoimon\\BTCuoiMon\\Quanlyduan.Designer.cs",
+              "RelativeToolTip": "BTCuoiMon\\Quanlyduan.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T08:01:27.251Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Quanlyduan.cs",
+              "DocumentMoniker": "C:\\btcuoimon\\BTCuoiMon\\Quanlyduan.cs",
+              "RelativeDocumentMoniker": "BTCuoiMon\\Quanlyduan.cs",
+              "ToolTip": "C:\\btcuoimon\\BTCuoiMon\\Quanlyduan.cs",
+              "RelativeToolTip": "BTCuoiMon\\Quanlyduan.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAIA5wCQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T08:01:14.991Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Quanlyduan.cs [Design]",
+              "DocumentMoniker": "C:\\btcuoimon\\BTCuoiMon\\Quanlyduan.cs",
+              "RelativeDocumentMoniker": "BTCuoiMon\\Quanlyduan.cs",
+              "ToolTip": "C:\\btcuoimon\\BTCuoiMon\\Quanlyduan.cs [Design]",
+              "RelativeToolTip": "BTCuoiMon\\Quanlyduan.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T07:50:36.713Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "DangKy.cs [Design]",
+              "DocumentMoniker": "C:\\btcuoimon\\BTCuoiMon\\DangKy.cs",
+              "RelativeDocumentMoniker": "BTCuoiMon\\DangKy.cs",
+              "ToolTip": "C:\\btcuoimon\\BTCuoiMon\\DangKy.cs [Design]",
+              "RelativeToolTip": "BTCuoiMon\\DangKy.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T07:46:21.92Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

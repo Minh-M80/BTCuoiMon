@@ -66,6 +66,24 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Quanlyduan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Quanlyduan.Designer.cs">
+      <DependentUpon>Quanlyduan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Quanlynhanvien.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Quanlynhanvien.Designer.cs">
+      <DependentUpon>Quanlynhanvien.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Quanlyphongban.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Quanlyphongban.Designer.cs">
+      <DependentUpon>Quanlyphongban.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="DangKy.resx">
       <DependentUpon>DangKy.cs</DependentUpon>
     </EmbeddedResource>
@@ -84,6 +102,15 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Quanlyduan.resx">
+      <DependentUpon>Quanlyduan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Quanlynhanvien.resx">
+      <DependentUpon>Quanlynhanvien.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Quanlyphongban.resx">
+      <DependentUpon>Quanlyphongban.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
