@@ -42,13 +42,17 @@
             this.btnSua = new System.Windows.Forms.Button();
             this.btnXoa = new System.Windows.Forms.Button();
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.label2 = new System.Windows.Forms.Label();
             this.dgvDuAn = new System.Windows.Forms.DataGridView();
+            this.panel1 = new System.Windows.Forms.Panel();
             this.btnExit = new System.Windows.Forms.Button();
+            this.label2 = new System.Windows.Forms.Label();
+            this.mada = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.tenda = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.sonv = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.motada = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.tableLayoutPanel1.SuspendLayout();
-            this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvDuAn)).BeginInit();
+            this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // label1
@@ -126,6 +130,7 @@
             this.btnSearch.TabIndex = 6;
             this.btnSearch.Text = "Tìm kiếm";
             this.btnSearch.UseVisualStyleBackColor = true;
+            this.btnSearch.Click += new System.EventHandler(this.btnSearch_Click);
             // 
             // txtSearch
             // 
@@ -133,6 +138,7 @@
             this.txtSearch.Name = "txtSearch";
             this.txtSearch.Size = new System.Drawing.Size(191, 22);
             this.txtSearch.TabIndex = 7;
+            this.txtSearch.TextChanged += new System.EventHandler(this.txtSearch_TextChanged);
             // 
             // btnthem
             // 
@@ -142,6 +148,7 @@
             this.btnthem.TabIndex = 8;
             this.btnthem.Text = "Thêm";
             this.btnthem.UseVisualStyleBackColor = true;
+            this.btnthem.Click += new System.EventHandler(this.btnthem_Click);
             // 
             // btnSua
             // 
@@ -151,6 +158,7 @@
             this.btnSua.TabIndex = 9;
             this.btnSua.Text = "Sửa";
             this.btnSua.UseVisualStyleBackColor = true;
+            this.btnSua.Click += new System.EventHandler(this.btnSua_Click);
             // 
             // btnXoa
             // 
@@ -176,6 +184,22 @@
             this.tableLayoutPanel1.Size = new System.Drawing.Size(803, 201);
             this.tableLayoutPanel1.TabIndex = 11;
             // 
+            // dgvDuAn
+            // 
+            this.dgvDuAn.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvDuAn.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.mada,
+            this.tenda,
+            this.sonv,
+            this.motada});
+            this.dgvDuAn.Location = new System.Drawing.Point(96, 3);
+            this.dgvDuAn.Name = "dgvDuAn";
+            this.dgvDuAn.RowHeadersWidth = 51;
+            this.dgvDuAn.RowTemplate.Height = 24;
+            this.dgvDuAn.Size = new System.Drawing.Size(703, 150);
+            this.dgvDuAn.TabIndex = 0;
+            this.dgvDuAn.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvDuAn_CellClick);
+            // 
             // panel1
             // 
             this.panel1.Controls.Add(this.btnExit);
@@ -183,6 +207,17 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(95, 248);
             this.panel1.TabIndex = 12;
+            // 
+            // btnExit
+            // 
+            this.btnExit.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.btnExit.Location = new System.Drawing.Point(3, 3);
+            this.btnExit.Name = "btnExit";
+            this.btnExit.Size = new System.Drawing.Size(89, 38);
+            this.btnExit.TabIndex = 0;
+            this.btnExit.Text = "Trở lại";
+            this.btnExit.UseVisualStyleBackColor = true;
+            this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
             // 
             // label2
             // 
@@ -194,25 +229,37 @@
             this.label2.TabIndex = 13;
             this.label2.Text = "Quản lý dự án";
             // 
-            // dgvDuAn
+            // mada
             // 
-            this.dgvDuAn.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvDuAn.Location = new System.Drawing.Point(97, 3);
-            this.dgvDuAn.Name = "dgvDuAn";
-            this.dgvDuAn.RowHeadersWidth = 51;
-            this.dgvDuAn.RowTemplate.Height = 24;
-            this.dgvDuAn.Size = new System.Drawing.Size(703, 150);
-            this.dgvDuAn.TabIndex = 0;
+            this.mada.DataPropertyName = "maDa";
+            this.mada.HeaderText = "Mã DA";
+            this.mada.MinimumWidth = 6;
+            this.mada.Name = "mada";
+            this.mada.Width = 50;
             // 
-            // btnExit
+            // tenda
             // 
-            this.btnExit.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.btnExit.Location = new System.Drawing.Point(3, 3);
-            this.btnExit.Name = "btnExit";
-            this.btnExit.Size = new System.Drawing.Size(89, 38);
-            this.btnExit.TabIndex = 0;
-            this.btnExit.Text = "Trở lại";
-            this.btnExit.UseVisualStyleBackColor = true;
+            this.tenda.DataPropertyName = "tenDa";
+            this.tenda.HeaderText = "Tên DA";
+            this.tenda.MinimumWidth = 6;
+            this.tenda.Name = "tenda";
+            this.tenda.Width = 200;
+            // 
+            // sonv
+            // 
+            this.sonv.DataPropertyName = "sonvDa";
+            this.sonv.HeaderText = "Số nhân viên";
+            this.sonv.MinimumWidth = 6;
+            this.sonv.Name = "sonv";
+            this.sonv.Width = 125;
+            // 
+            // motada
+            // 
+            this.motada.DataPropertyName = "motaDa";
+            this.motada.HeaderText = "Mô tả";
+            this.motada.MinimumWidth = 6;
+            this.motada.Name = "motada";
+            this.motada.Width = 300;
             // 
             // Quanlyduan
             // 
@@ -237,9 +284,10 @@
             this.Controls.Add(this.label1);
             this.Name = "Quanlyduan";
             this.Text = "Quanlyduan";
+            this.Load += new System.EventHandler(this.Quanlyduan_Load);
             this.tableLayoutPanel1.ResumeLayout(false);
-            this.panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dgvDuAn)).EndInit();
+            this.panel1.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -265,5 +313,9 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.DataGridView dgvDuAn;
         private System.Windows.Forms.Button btnExit;
+        private System.Windows.Forms.DataGridViewTextBoxColumn mada;
+        private System.Windows.Forms.DataGridViewTextBoxColumn tenda;
+        private System.Windows.Forms.DataGridViewTextBoxColumn sonv;
+        private System.Windows.Forms.DataGridViewTextBoxColumn motada;
     }
 }
