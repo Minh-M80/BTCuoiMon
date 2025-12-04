@@ -88,7 +88,6 @@ namespace BTCuoiMon
 
         private void btnSua_Click(object sender, EventArgs e)
         {
-            int sonv = 0;
             if (txtMaDA.Text.Trim() == "")
                 MessageBox.Show("Mã dự án không được để trống !");
             else if (txtTenDA.Text.Trim() == "")
@@ -117,6 +116,11 @@ namespace BTCuoiMon
             ManHinhChinh frmmch = new ManHinhChinh();
             frmmch.Show();
             this.Hide();
+        }
+
+        private void dgvDuAn_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
         }
     }
 }

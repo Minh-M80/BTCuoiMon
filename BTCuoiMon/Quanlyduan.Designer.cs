@@ -43,13 +43,13 @@
             this.btnXoa = new System.Windows.Forms.Button();
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.dgvDuAn = new System.Windows.Forms.DataGridView();
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.btnExit = new System.Windows.Forms.Button();
-            this.label2 = new System.Windows.Forms.Label();
             this.mada = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.tenda = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.sonv = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.motada = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.btnExit = new System.Windows.Forms.Button();
+            this.label2 = new System.Windows.Forms.Label();
             this.tableLayoutPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvDuAn)).BeginInit();
             this.panel1.SuspendLayout();
@@ -199,35 +199,7 @@
             this.dgvDuAn.Size = new System.Drawing.Size(703, 150);
             this.dgvDuAn.TabIndex = 0;
             this.dgvDuAn.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvDuAn_CellClick);
-            // 
-            // panel1
-            // 
-            this.panel1.Controls.Add(this.btnExit);
-            this.panel1.Location = new System.Drawing.Point(-3, -1);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(95, 248);
-            this.panel1.TabIndex = 12;
-            // 
-            // btnExit
-            // 
-            this.btnExit.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.btnExit.Location = new System.Drawing.Point(3, 3);
-            this.btnExit.Name = "btnExit";
-            this.btnExit.Size = new System.Drawing.Size(89, 38);
-            this.btnExit.TabIndex = 0;
-            this.btnExit.Text = "Trở lại";
-            this.btnExit.UseVisualStyleBackColor = true;
-            this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
-            this.label2.Location = new System.Drawing.Point(372, 47);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(172, 29);
-            this.label2.TabIndex = 13;
-            this.label2.Text = "Quản lý dự án";
+            this.dgvDuAn.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvDuAn_CellContentClick);
             // 
             // mada
             // 
@@ -260,6 +232,35 @@
             this.motada.MinimumWidth = 6;
             this.motada.Name = "motada";
             this.motada.Width = 300;
+            // 
+            // panel1
+            // 
+            this.panel1.Controls.Add(this.btnExit);
+            this.panel1.Location = new System.Drawing.Point(-3, -1);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(95, 248);
+            this.panel1.TabIndex = 12;
+            // 
+            // btnExit
+            // 
+            this.btnExit.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.btnExit.Location = new System.Drawing.Point(3, 3);
+            this.btnExit.Name = "btnExit";
+            this.btnExit.Size = new System.Drawing.Size(89, 38);
+            this.btnExit.TabIndex = 0;
+            this.btnExit.Text = "Trở lại";
+            this.btnExit.UseVisualStyleBackColor = true;
+            this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
+            this.label2.Location = new System.Drawing.Point(372, 47);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(172, 29);
+            this.label2.TabIndex = 13;
+            this.label2.Text = "Quản lý dự án";
             // 
             // Quanlyduan
             // 

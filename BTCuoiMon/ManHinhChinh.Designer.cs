@@ -38,58 +38,67 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(250, 52);
+            this.label1.Location = new System.Drawing.Point(182, 35);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(249, 25);
+            this.label1.Size = new System.Drawing.Size(166, 16);
             this.label1.TabIndex = 0;
             this.label1.Text = "Phần mềm quản lý nhân sự";
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(21, 12);
+            this.button1.Location = new System.Drawing.Point(15, 8);
+            this.button1.Margin = new System.Windows.Forms.Padding(2);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(105, 43);
+            this.button1.Size = new System.Drawing.Size(76, 29);
             this.button1.TabIndex = 1;
             this.button1.Text = "Quay lại";
             this.button1.UseVisualStyleBackColor = true;
             // 
             // btnNhanVien
             // 
-            this.btnNhanVien.Location = new System.Drawing.Point(50, 283);
+            this.btnNhanVien.Location = new System.Drawing.Point(36, 189);
+            this.btnNhanVien.Margin = new System.Windows.Forms.Padding(2);
             this.btnNhanVien.Name = "btnNhanVien";
-            this.btnNhanVien.Size = new System.Drawing.Size(141, 67);
+            this.btnNhanVien.Size = new System.Drawing.Size(103, 45);
             this.btnNhanVien.TabIndex = 2;
-            this.btnNhanVien.Text = "button2";
+            this.btnNhanVien.Text = "Quản lý nhân viên";
             this.btnNhanVien.UseVisualStyleBackColor = true;
+            this.btnNhanVien.Click += new System.EventHandler(this.btnNhanVien_Click);
             // 
             // btnPhongBan
             // 
-            this.btnPhongBan.Location = new System.Drawing.Point(298, 283);
+            this.btnPhongBan.Location = new System.Drawing.Point(217, 189);
+            this.btnPhongBan.Margin = new System.Windows.Forms.Padding(2);
             this.btnPhongBan.Name = "btnPhongBan";
-            this.btnPhongBan.Size = new System.Drawing.Size(141, 67);
+            this.btnPhongBan.Size = new System.Drawing.Size(103, 45);
             this.btnPhongBan.TabIndex = 3;
-            this.btnPhongBan.Text = "button3";
+            this.btnPhongBan.Text = "Quản lý phòng ban";
             this.btnPhongBan.UseVisualStyleBackColor = true;
+            this.btnPhongBan.Click += new System.EventHandler(this.btnPhongBan_Click);
             // 
             // btnDuan
             // 
-            this.btnDuan.Location = new System.Drawing.Point(514, 283);
+            this.btnDuan.Location = new System.Drawing.Point(374, 189);
+            this.btnDuan.Margin = new System.Windows.Forms.Padding(2);
             this.btnDuan.Name = "btnDuan";
-            this.btnDuan.Size = new System.Drawing.Size(141, 67);
+            this.btnDuan.Size = new System.Drawing.Size(103, 45);
             this.btnDuan.TabIndex = 4;
-            this.btnDuan.Text = "button4";
+            this.btnDuan.Text = "Quản lý dự án";
             this.btnDuan.UseVisualStyleBackColor = true;
+            this.btnDuan.Click += new System.EventHandler(this.btnDuan_Click);
             // 
             // ManHinhChinh
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 24F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(582, 300);
             this.Controls.Add(this.btnDuan);
             this.Controls.Add(this.btnPhongBan);
             this.Controls.Add(this.btnNhanVien);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label1);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "ManHinhChinh";
             this.Text = "ManHinhChinh";
             this.ResumeLayout(false);

@@ -12,7 +12,7 @@ namespace BTCuoiMon.DB
     {
         public SqlConnection getConnect()
         {
-            String strConn = @"Data Source=enesDy;Initial Catalog=btcuoimon;Integrated Security=True;Encrypt=False";
+            String strConn = @"Data Source=LAPTOP-7S78NNFS\SQLEXPRESS;Initial Catalog=btlon;Integrated Security=True;Encrypt=False";
             return new SqlConnection(strConn);
         }
         public DataTable getTable(String sql)

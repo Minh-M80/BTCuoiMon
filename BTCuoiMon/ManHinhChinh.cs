@@ -16,5 +16,28 @@ namespace BTCuoiMon
         {
             InitializeComponent();
         }
+
+        private void btnNhanVien_Click(object sender, EventArgs e)
+        {
+            Quanlynhanvien frmnv = new Quanlynhanvien();
+            frmnv.Show();
+            this.Hide();
+        }
+
+
+        private void btnDuan_Click(object sender, EventArgs e)
+        {
+            Quanlyduan frmda = new Quanlyduan();
+            frmda.Show();
+            this.Hide();
+        }
+
+        private void btnPhongBan_Click(object sender, EventArgs e)
+        {
+            Quanlyphongban frmpb = new Quanlyphongban();
+            frmpb.LoadData();
+            frmpb.Show();
+            this.Hide();
+        }
     }
 }

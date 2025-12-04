@@ -33,6 +33,10 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=16.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Office.Interop.Excel.16.0.18925.20022\lib\net40\Microsoft.Office.Interop.Excel.dll</HintPath>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -46,6 +50,20 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="btlonDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>btlonDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="btlonDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>btlonDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="BUS\DuAn_BUS.cs" />
+    <Compile Include="BUS\NhanVien_Bus.cs" />
+    <Compile Include="BUS\PhongBan_BUS.cs" />
+    <Compile Include="BUS\User_BUS.cs" />
     <Compile Include="DangKy.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -58,6 +76,11 @@
     <Compile Include="DangNhap.Designer.cs">
       <DependentUpon>DangNhap.cs</DependentUpon>
     </Compile>
+    <Compile Include="DB\ConnectDB.cs" />
+    <Compile Include="DTO\DuAn_DTO.cs" />
+    <Compile Include="DTO\NhanVien_DTO.cs" />
+    <Compile Include="DTO\PhongBan_DTO.cs" />
+    <Compile Include="DTO\User_DTO.cs" />
     <Compile Include="ManHinhChinh.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -111,6 +134,31 @@
     <EmbeddedResource Include="Quanlyphongban.resx">
       <DependentUpon>Quanlyphongban.cs</DependentUpon>
     </EmbeddedResource>
+    <None Include=".vs\BTCuoiMon.csproj.dtbcache.json" />
+    <None Include="bin\Debug\BTCuoiMon.exe.config" />
+    <None Include="btlonDataSet.xsc">
+      <DependentUpon>btlonDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="btlonDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>btlonDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="btlonDataSet.xss">
+      <DependentUpon>btlonDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="btlonDataSet1.xsc">
+      <DependentUpon>btlonDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="btlonDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>btlonDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="btlonDataSet1.xss">
+      <DependentUpon>btlonDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -123,6 +171,10 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bin\Debug\BTCuoiMon.exe" />
+    <Content Include="bin\Debug\BTCuoiMon.pdb" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
