@@ -50,16 +50,19 @@ namespace BTCuoiMon.BUS
         }
         public void deleteDA(String maDA)
         {
-            String sql = "delete DUAN where maDa='" + maDA + "'";
+            String updateNhanVienSql = "UPDATE NHANVIEN SET daNv = NULL WHERE daNv = '" + maDA + "'";
+            String deleteDuAnSql = "DELETE DUAN WHERE maDa='" + maDA + "'";
+
             try
             {
-                dt.ExcuteNonQuery(sql);
+                dt.ExcuteNonQuery(updateNhanVienSql);
+                dt.ExcuteNonQuery(deleteDuAnSql);
+
                 MessageBox.Show("Xóa thành công !");
             }
             catch (SqlException ex)
             {
-                MessageBox.Show("Lỗi CSDL !" + ex.Message);
-
+                MessageBox.Show("Lỗi CSDL khi xóa: " + ex.Message);
             }
         }
         public DataTable Search(String condi)
